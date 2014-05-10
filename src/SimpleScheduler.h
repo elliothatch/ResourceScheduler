@@ -1,5 +1,5 @@
 #ifndef SIMPLESCHEDULER_H
-#define SIMPLECHEDULER_H
+#define SIMPLESCHEDULER_H
 #include "IScheduler.h"
 #include <queue>
 

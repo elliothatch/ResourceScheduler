@@ -9,7 +9,7 @@ class IScheduler
 {
 public:
 
-	IScheduler(std::istream& resourceStream, std::istream& jobStream) {}
+	IScheduler(std::istream& , std::istream& ) {}
 	virtual ~IScheduler() {}
 
 	virtual std::string scheduleJobs() = 0; //returns schedule in format Job #: ResourceUID0 ResourceUID1...

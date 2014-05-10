@@ -14,7 +14,7 @@ void testScheduler(IScheduler& scheduler, std::stringstream& resourceStream, std
 	int numJobs, int resourceCount, unsigned long randomSeed);
 
 //tests both the simple scheduler and the improved scheduler in a famine of resources
-int main(int argc, const char* argv[])
+int main(int , const char* [])
 {
 	std::cout << "Resource Scheduling Simulation\n";
 
