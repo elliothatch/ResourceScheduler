@@ -63,7 +63,7 @@ std::string ImprovedScheduler::scheduleJobs()
 			schedule << m_resourceBuffer.front() << " ";
 			m_resourceBuffer.pop();
 		}
-		m_jobBuffer.pop_front();
+		m_jobBuffer.erase(m_jobBuffer.begin() + currentJob);
 		schedule << "\n";
 		m_jobCount++;
 	}
