@@ -87,6 +87,7 @@ int main(int argc, const char* argv[])
 }
 
 //mutates vectors and inserts number of idling jobs and idling resources after each job batch
+//jobs shouldn't complete because the test never generates enough resources
 void testScheduler(IScheduler& scheduler, std::stringstream& resourceStream, std::stringstream& jobStream, 
 						std::vector<int>& idlingJobs, std::vector<int>& idlingResources,
 						int numJobs, int resourceCount, unsigned long randomSeed)

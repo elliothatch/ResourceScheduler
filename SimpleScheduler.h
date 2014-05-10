@@ -3,6 +3,7 @@
 #include "IScheduler.h"
 #include <queue>
 
+//assigns resources to jobs. if there are not enough resources it waits until more resources are available
 class SimpleScheduler : public IScheduler
 {
 public:
