@@ -83,6 +83,9 @@ int main(int , const char* [])
 	std::cout << "Idling Resources: " << improvedIdlingResourcesCount << "\n";
 
 	system("PAUSE");
+
+	ResourceManager::cleanup();
+
 	return 0;
 }
 
